@@ -1,0 +1,29 @@
+{
+  "name": "artemis-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domipuntino/artemis-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domipuntino/artemis-bot/issues"
+  },
+  "homepage": "https://github.com/domipuntino/artemis-bot#readme",
+  "dependencies": {
+    "@discordjs/voice": "^0.9.0",
+    "@distube/soundcloud": "^1.1.0",
+    "@distube/spotify": "^1.2.1",
+    "@distube/yt-dlp": "^1.0.2",
+    "discord.js": "^13.6.0",
+    "distube": "^3.3.4",
+    "libsodium-wrappers": "^0.7.10",
+    "opusscript": "^0.0.8"
+  },
+  "description": ""
+}
