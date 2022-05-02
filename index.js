@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_MEMBERS", "GUILD_VOICE_STATES"] });
 
-client.login("OTI4MDQwMDQ0NjU1MTc3Nzc5.YdS-pA.JfIOfn9KW6btiAI62joLyuCAhcE");
+client.login(process.env.token);
 
 client.once('ready', () => {
     console.log('Artemis bot on')
